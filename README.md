@@ -1,7 +1,7 @@
 <h1 align="left">Precise Localization for Anatomo-Physiological Hallmarks of the Cervical Spine by Using Neural Memory Ordinary Differential Equation</h1> 
 
 ## Usage
-Download and install Miniconda from the <a href=https://docs.anaconda.com/free/miniconda/></a>
+Download and install Miniconda from the https://docs.anaconda.com/free/miniconda/
 We use PyTorch 2.0.1, and mmcv 2.0.0 for the experiments.
 ```bash
 pip install -U openmim
