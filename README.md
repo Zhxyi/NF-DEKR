@@ -2,6 +2,7 @@
 
 ## Usage
 Download and install Miniconda from the https://docs.anaconda.com/free/miniconda/
+
 We use PyTorch 2.0.1, and mmcv 2.0.0 for the experiments.
 ```bash
 pip install -U openmim
