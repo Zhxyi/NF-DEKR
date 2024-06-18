@@ -35,5 +35,5 @@ python tools\test.py <your config path>
 
 Example.
 ```bash
-python tools\train.py .\configs\body_2d_keypoint\dekr\coco\NF-DEKR.py
+python tools\train.py .\configs\body_2d_keypoint\nf_dekr\coco\NF-DEKR_hrnetW32.py
 ```
