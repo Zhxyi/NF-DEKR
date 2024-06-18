@@ -25,15 +25,32 @@ pip install torchdiffeq
 ```
 
 ## Usage
-Train and test.
+Organize your dataset in the following structure.
+```txt
+├── data
+     ├── train images
+     ├── val images
+     └── annotations: 
+     		  ├── keypoints_train.json
+     		  └── keypoints_val.json
+```
+
+Training and testing.
 ```bash
+python setyp.py install
+# train
 python tools\train.py <your config path>
 ```
+
 ```bash
+# test
 python tools\test.py <your config path>
 ```
 
 Example.
 ```bash
-python tools\train.py .\configs\body_2d_keypoint\nf_dekr\coco\NF-DEKR_hrnetW32.py
+python tools\train.py .\configs\body_2d_keypoint\nf_dekr\coco\NF-DEKR_hrnetw32.py
 ```
+
+## Acknowledge
+We acknowledge the excellent implementation from [mmpose](https://github.com/open-mmlab/mmpose).
